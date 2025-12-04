@@ -1,5 +1,5 @@
 
-  # Portfolio Website with Animations
+  # Portfolio Website
 
   A personal portfolio website project built with modern web technologies, featuring smooth animations and an interactive user interface. This project showcases professional experience, skills, education, and project portfolio with engaging visual animations.
 
