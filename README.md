@@ -40,7 +40,4 @@
 
   Run `npm run build` to create a production-ready build.
 
-  ## Original Design
-
-  The design was originally created in Figma and can be viewed at https://www.figma.com/design/YzCIjy3bCy0Gfbt5h3sAIb/Portfolio-Website-with-Animations.
   
