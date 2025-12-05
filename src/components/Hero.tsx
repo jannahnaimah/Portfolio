@@ -26,7 +26,7 @@ export function Hero({ scrollY }: HeroProps) {
         >
           <motion.h1
             className="mb-6 text-6xl md:text-7xl lg:text-8xl font-black text-slate-900 tracking-tight"
-            style={{ fontFamily: 'ui-sans-serif, system-ui, -apple-system, sans-serif', fontWeight: 900 }}
+            style={{ fontFamily: '"Playfair Display", serif', fontWeight: 900 }}
             initial={{ opacity: 0, scale: 0.5 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.6, delay: 0.2 }}
@@ -53,21 +53,12 @@ export function Hero({ scrollY }: HeroProps) {
           </motion.p>
 
           <motion.p
-            className="text-slate-500 mb-4 max-w-2xl mx-auto"
+            className="text-slate-700 mb-8 max-w-xl mx-auto text-lg"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ delay: 0.6 }}
           >
-            Building secure, high-performing systems with expertise in threat analysis & web development
-          </motion.p>
-
-          <motion.p
-            className="text-slate-700 mb-8 max-w-xl mx-auto italic"
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            transition={{ delay: 0.7 }}
-          >
-            "Turning curiosity into code, and vulnerability into strength"
+            Girl in tech: part logic, part magic.
           </motion.p>
 
           <motion.div
@@ -77,14 +68,14 @@ export function Hero({ scrollY }: HeroProps) {
             transition={{ delay: 0.8 }}
           >
             <a
-              href="mailto:your@email.com"
+              href="mailto:njnnaimah@gmail.com"
               className="inline-flex items-center gap-2 px-6 py-3 bg-slate-900 text-white rounded-full hover:bg-slate-800 transition-colors"
             >
               <Mail className="w-4 h-4" />
               Contact Me
             </a>
             <a
-              href="https://linkedin.com"
+              href="https://www.linkedin.com/in/nur-jannah-nai-mah-zainal/"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 px-6 py-3 border-2 border-slate-900 text-slate-900 rounded-full hover:bg-slate-900 hover:text-white transition-colors"
